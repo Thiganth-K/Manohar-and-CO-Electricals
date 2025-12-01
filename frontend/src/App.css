@@ -1,0 +1,17 @@
+/* Minimal custom styles. Most styling is handled with Tailwind CSS. */
+
+:root{
+	--brand-yellow:#d6a500;
+}
+
+.logo{
+	height:48px;
+}
+
+/* Make code blocks stand out if used */
+code{
+	background-color:rgba(15,23,42,0.04);
+	padding:0.15rem 0.3rem;
+	border-radius:4px;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', 'Segoe UI Mono', monospace;
+}
